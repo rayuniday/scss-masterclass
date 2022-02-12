@@ -33,13 +33,16 @@ child:nth-child(1) {
   order: 2;
   align-self: center;
 }
-
-child:nth-child(2) {
-  order: 3;
-}
 ```
 
 ### #1.5 wrap, nowrap, reverse, align-content
+
+```CSS
+parent {
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+```
 
 ### #1.6 flex-grow, flex-shrink
 
