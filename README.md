@@ -60,6 +60,12 @@ child:nth-child(3) {
 
 ### #1.7 flex-basis
 
+```CSS
+.child {
+  flex-basis: 30%; /* width */
+}
+```
+
 ### #1.8 Flexbox Froggy 1-13
 
 ### #1.9 Flexbox Froggy 14-24
