@@ -28,6 +28,17 @@ parent {
 
 ### #1.4 align-self and order
 
+```CSS
+child:nth-child(1) {
+  order: 2;
+  align-self: center;
+}
+
+child:nth-child(2) {
+  order: 3;
+}
+```
+
 ### #1.5 wrap, nowrap, reverse, align-content
 
 ### #1.6 flex-grow, flex-shrink
