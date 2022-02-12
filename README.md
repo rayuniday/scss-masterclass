@@ -46,6 +46,18 @@ parent {
 
 ### #1.6 flex-grow, flex-shrink
 
+```CSS
+child:nth-child(2) {
+  flex-shrink: 3;
+  flex-grow: 2;
+}
+
+child:nth-child(3) {
+  flex-shrink: 2;
+  flex-grow: 1;
+}
+```
+
 ### #1.7 flex-basis
 
 ### #1.8 Flexbox Froggy 1-13
