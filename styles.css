@@ -1,12 +1,15 @@
 .wrapper {
-  display: flex; /* flex-direction: row */
-  justify-content: space-around; /* main-axis */
-  align-items: flex-start; /* cross-axis */
+  display: flex;
+  flex-direction: column;
+  /* Main Axis */
+  justify-content: space-around;
+  /* Cross Axis */
+  align-items: stretch;
   height: 100vh;
 }
 
 .box {
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   background: peru;
   color: white;

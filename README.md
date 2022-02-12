@@ -23,12 +23,17 @@ parent {
   display: flex; /* flex-direction: row */
   justify-content: space-around; /* main-axis */
   align-items: flex-start; /* cross-axis */
-  height: 100vh;
 }
 ```
 
-### #1.3
+### #1.4 align-self and order
 
-### #1.4
+### #1.5 wrap, nowrap, reverse, align-content
 
-### #1.5
+### #1.6 flex-grow, flex-shrink
+
+### #1.7 flex-basis
+
+### #1.8 Flexbox Froggy 1-13
+
+### #1.9 Flexbox Froggy 14-24
