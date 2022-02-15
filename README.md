@@ -17,10 +17,14 @@
 
 ## Grid:
 
-- [ ] grid-template-columns
-- [ ] grid-template-rows
-- [ ] grid-template-areas
+- [x] grid-template-columns
+- [x] grid-template-rows
+- [x] column-gap
+- [x] row-gap
+- [x] gap
+- [x] grid-template-areas
 - [ ] grid-template
+
 - [ ] grid-column-gap
 - [ ] grid-row-gap
 - [ ] justify-items
@@ -161,6 +165,23 @@ parent {
 ```
 
 ### #2.3 Grid Template Areas
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: 100px repeat(2, 200px) 100px;
+  grid-template-areas:
+    "header header header header"
+    "content content content nav"
+    "content content content nav"
+    "footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+```
 
 ### #2.4 Rows and Columns
 
