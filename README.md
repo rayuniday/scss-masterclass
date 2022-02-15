@@ -146,3 +146,26 @@ Flexbox Froggy: <https://flexboxfroggy.com/#ko>
 ### #1.9 Flexbox Froggy 14-24
 
 flex-flow : flex-direction flex-wrap;
+
+### #2.2 CSS Grid Basic Concepts
+
+```css
+parent {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px 300px;
+  /* gap: 10px; */
+  column-gap: 5px;
+  row-gap: 5px;
+}
+```
+
+### #2.3 Grid Template Areas
+
+### #2.4 Rows and Columns
+
+### #2.5 Shortcuts
+
+### #2.6 Line Naming
+
+### #2.7 Grid Template
