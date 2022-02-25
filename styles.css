@@ -1,36 +1,28 @@
 .grid {
+  background: gray;
+  color: white;
   display: grid;
   gap: 5px;
-  height: 50vh;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  /* justify-items: start; */
-  /* align-items: end;
-  justify-items: end;
-  justify-items: center; */
-  place-items: stretch center;
+  height: 250vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  /* justify-content: space-between; */
+  /* align-content: space-evenly; */
+  place-content: end center;
 }
 
 .header {
   background-color: #2ecc71;
-  height: 40px;
-  width: 40px;
 }
 
 .content {
   background-color: #3498db;
-  height: 40px;
-  width: 40px;
 }
 
 .nav {
   background-color: #8e44ad;
-  height: 40px;
-  width: 40px;
 }
 
 .footer {
   background-color: #f39c12;
-  height: 40px;
-  width: 40px;
 }
