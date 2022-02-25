@@ -15,33 +15,7 @@
 - [x] flex-shrink
 - [x] flex-basis
 
-## Grid:
-
-- [x] grid-template-columns
-- [x] grid-template-rows
-- [x] column-gap
-- [x] row-gap
-- [x] gap
-- [x] grid-template-areas
-- [ ] grid-template
-
-- [ ] grid-column-gap
-- [ ] grid-row-gap
-- [ ] justify-items
-- [ ] align-items
-- [ ] justify-content
-- [ ] align-content
-- [ ] grid-auto-columns
-- [ ] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
-- [ ] justify-self
-- [ ] align-self
+## Grid
 
 ### Keywords & Functions:
 
