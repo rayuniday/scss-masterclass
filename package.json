@@ -1,0 +1,23 @@
+{
+  "name": "scss-masterclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass -w -r src/scss/styles.scss dist/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayuniday/scss-masterclass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayuniday/scss-masterclass/issues"
+  },
+  "homepage": "https://github.com/rayuniday/scss-masterclass#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

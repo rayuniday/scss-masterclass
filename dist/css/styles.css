@@ -1,0 +1,14 @@
+h2 {
+  color: #e7473c;
+  font-size: 32px; }
+
+.box {
+  margin-top: 20px; }
+  .box:hover {
+    background-color: green; }
+  .box h2 {
+    color: blue; }
+    .box h2:hover {
+      color: red; }
+  .box button {
+    color: red; }
