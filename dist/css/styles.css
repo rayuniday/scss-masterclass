@@ -1,14 +1,21 @@
-h2 {
-  color: #e7473c;
-  font-size: 32px; }
+.grid {
+  color: white;
+  display: grid;
+  gap: 5px;
+  grid-template-rows: repeat(2, 100px);
+}
 
-.box {
-  margin-top: 20px; }
-  .box:hover {
-    background-color: green; }
-  .box h2 {
-    color: blue; }
-    .box h2:hover {
-      color: red; }
-  .box button {
-    color: red; }
+.grid:first-child {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.grid:last-child {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.item {
+  background-color: blue;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
