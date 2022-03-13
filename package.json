@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass -w -r src/scss/styles.scss dist/css/styles.css"
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,15 @@
     "url": "https://github.com/rayuniday/scss-masterclass/issues"
   },
   "homepage": "https://github.com/rayuniday/scss-masterclass#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1.0",
     "node-sass": "^7.0.1"
   }
 }
